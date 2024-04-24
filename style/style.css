@@ -1,0 +1,150 @@
+*, *::after, *::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  color-scheme: dark light;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: hsl(194, 100%, 50%);
+}
+
+img, picture, svg, video {
+  display: block;
+  width: 100%;
+}
+
+.nav {
+  min-width: 100rem;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav__logo-box {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+.nav__logo {
+  width: 10rem;
+  height: 10rem;
+}
+.nav__logout-box {
+  text-decoration: none;
+  color: #000;
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.nav__logout-icon {
+  width: 5rem;
+  height: 5rem;
+}
+
+.main {
+  min-width: 100rem;
+  background-color: hsl(194, 100%, 50%);
+  display: flex;
+}
+.main__left {
+  width: 20%;
+}
+.main__left-list {
+  list-style: none;
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__left-item {
+  border-bottom: 0.5rem solid #000;
+  text-align: center;
+  padding: 3rem;
+  width: 90%;
+}
+.main__left-item-link {
+  text-decoration: none;
+  color: #fff;
+  width: 100%;
+}
+.main__right {
+  background-color: #fff;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.main__right-button-box {
+  padding: 2rem;
+}
+.main__right-label-box {
+  width: 100%;
+  display: flex;
+  gap: 35rem;
+  padding: 0 15rem;
+  border: 1px solid #000;
+}
+.main__right-list-box {
+  display: flex;
+  justify-content: right;
+}
+.main__right-list {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+.main__item {
+  padding: 2rem 0;
+  border: 1px solid #000;
+  display: flex;
+  gap: 1rem;
+  justify-content: right;
+}
+
+.horizontal {
+  height: 3.5rem;
+  border: none;
+  background-color: rgb(1, 1, 73);
+}
+
+.heading--1 {
+  font-size: 3rem;
+}
+.heading--2 {
+  font-size: 3rem;
+}
+.heading--3 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+.heading--4 {
+  font-size: 3.5rem;
+}
+
+.button {
+  background-color: hsl(194, 100%, 50%);
+  border: none;
+  padding: 0.5rem 2rem;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 100rem;
+}
+
+/*# sourceMappingURL=style.css.map */
