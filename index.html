@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style/style.css" />
+    <script defer src="script.js"></script>
     <title>Josh Wireframe 2</title>
   </head>
   <body>
@@ -62,11 +63,11 @@
           <button class="button main__add-instructors">ADD INSTRUCTORS</button>
           <button class="button main__add-subjects">ADD SUBJECTS</button>
         </div>
-        <div class="main__right-label-box">
+        <!-- <div class="main__right-label-box">
           <h4 class="heading--4">SUBJECTS</h4>
           <h4 class="heading--4">ASSIGN INSTRUCTORS</h4>
         </div>
-        <!-- <div class="main__right-list-box">
+        <div class="main__right-list-box">
           <ul class="main__right-list">
             <li class="main__item main__item--1">
               <button class="button main__add-instructors">UPDATE</button>
@@ -104,75 +105,79 @@
         </div> -->
 
         <table class="main__right-list-box">
-          <tr class="main__right-list">
-            <th></th>
-            <th></th>
-            <th></th>
-          </tr>
-          <tr class="main__right-list">
-            <td></td>
-            <td></td>
-            <td class="main__item main__item--1">
-              <button class="button main__add-instructors">UPDATE</button>
-              <button class="button main__add-subjects">DELETE</button>
-            </td>
-          </tr>
-          <tr class="main__right-list">
-            <td></td>
-            <td></td>
-            <td class="main__item main__item--2">
-              <button class="button main__add-instructors">UPDATE</button>
-              <button class="button main__add-subjects">DELETE</button>
-            </td>
-          </tr>
-          <tr class="main__right-list">
-            <td></td>
-            <td></td>
-            <td class="main__item main__item--3">
-              <button class="button main__add-instructors">UPDATE</button>
-              <button class="button main__add-subjects">DELETE</button>
-            </td>
-          </tr>
-          <tr class="main__right-list">
-            <td></td>
-            <td></td>
-            <td class="main__item main__item--4">
-              <button class="button main__add-instructors">UPDATE</button>
-              <button class="button main__add-subjects">DELETE</button>
-            </td>
-          </tr>
-          <tr class="main__right-list">
-            <td></td>
-            <td></td>
-            <td class="main__item main__item--5">
-              <button class="button main__add-instructors">UPDATE</button>
-              <button class="button main__add-subjects">DELETE</button>
-            </td>
-          </tr>
-          <tr class="main__right-list">
-            <td></td>
-            <td></td>
-            <td class="main__item main__item--6">
-              <button class="button main__add-instructors">UPDATE</button>
-              <button class="button main__add-subjects">DELETE</button>
-            </td>
-          </tr>
-          <tr class="main__right-list">
-            <td></td>
-            <td></td>
-            <td class="main__item main__item--7">
-              <button class="button main__add-instructors">UPDATE</button>
-              <button class="button main__add-subjects">DELETE</button>
-            </td>
-          </tr>
-          <tr class="main__right-list">
-            <td></td>
-            <td></td>
-            <td class="main__item main__item--8">
-              <button class="button main__add-instructors">UPDATE</button>
-              <button class="button main__add-subjects">DELETE</button>
-            </td>
-          </tr>
+          <thead>
+            <tr class="main__item main__item-heading">
+              <th><h4 class="heading--4">SUBJECTS</h4></th>
+              <th><h4 class="heading--4">ASSIGN INSTRUCTORS</h4></th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody class="table-body">
+            <tr class="main__item main__item--1">
+              <td class="table-data-row">&nbsp;</td>
+              <td class="table-data-row">&nbsp;</td>
+              <td>
+                <button class="button main__add-instructors">UPDATE</button>
+                <button class="button main__add-subjects">DELETE</button>
+              </td>
+            </tr>
+            <!-- <tr class="main__item main__item--2">
+              <td class="table-data-row">&nbsp;</td>
+              <td class="table-data-row">&nbsp;</td>
+              <td>
+                <button class="button main__add-instructors">UPDATE</button>
+                <button class="button main__add-subjects">DELETE</button>
+              </td>
+            </tr> -->
+            <!-- <tr class="main__item main__item--3">
+              <td class="table-data-row">&nbsp;</td>
+              <td class="table-data-row">&nbsp;</td>
+              <td>
+                <button class="button main__add-instructors">UPDATE</button>
+                <button class="button main__add-subjects">DELETE</button>
+              </td>
+            </tr>
+            <tr class="main__item main__item--4">
+              <td class="table-data-row">&nbsp;</td>
+              <td class="table-data-row">&nbsp;</td>
+              <td>
+                <button class="button main__add-instructors">UPDATE</button>
+                <button class="button main__add-subjects">DELETE</button>
+              </td>
+            </tr>
+            <tr class="main__item main__item--5">
+              <td class="table-data-row">&nbsp;</td>
+              <td class="table-data-row">&nbsp;</td>
+              <td>
+                <button class="button main__add-instructors">UPDATE</button>
+                <button class="button main__add-subjects">DELETE</button>
+              </td>
+            </tr>
+            <tr class="main__item main__item--6">
+              <td class="table-data-row">&nbsp;</td>
+              <td class="table-data-row">&nbsp;</td>
+              <td>
+                <button class="button main__add-instructors">UPDATE</button>
+                <button class="button main__add-subjects">DELETE</button>
+              </td>
+            </tr>
+            <tr class="main__item main__item--7">
+              <td class="table-data-row">&nbsp;</td>
+              <td class="table-data-row">&nbsp;</td>
+              <td>
+                <button class="button main__add-instructors">UPDATE</button>
+                <button class="button main__add-subjects">DELETE</button>
+              </td>
+            </tr>
+            <tr class="main__item main__item--8">
+              <td class="table-data-row">&nbsp;</td>
+              <td class="table-data-row">&nbsp;</td>
+              <td>
+                <button class="button main__add-instructors">UPDATE</button>
+                <button class="button main__add-subjects">DELETE</button>
+              </td>
+            </tr> -->
+          </tbody>
         </table>
       </div>
     </main>

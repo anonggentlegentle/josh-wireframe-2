@@ -83,7 +83,7 @@ img, picture, svg, video {
 }
 .main__right {
   background-color: #fff;
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -98,8 +98,7 @@ img, picture, svg, video {
   border: 1px solid #000;
 }
 .main__right-list-box {
-  display: flex;
-  justify-content: right;
+  min-width: 100%;
 }
 .main__right-list {
   list-style: none;
@@ -110,10 +109,23 @@ img, picture, svg, video {
 }
 .main__item {
   padding: 2rem 0;
-  border: 1px solid #000;
   display: flex;
-  gap: 1rem;
+  gap: 10rem;
   justify-content: right;
+}
+
+tr {
+  border: 1px solid black;
+}
+
+td, th {
+  min-width: 20rem;
+  width: 33.3333333333%;
+  text-align: left;
+}
+
+tr td:last-child {
+  text-align: right;
 }
 
 .horizontal {
